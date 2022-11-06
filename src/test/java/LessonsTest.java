@@ -54,6 +54,12 @@ public class LessonsTest {
 
         driver.quit();
     }
+
+    @Test
+    public void testH2TagText_WhenSearchingCityCountry1() throws InterruptedException {
+        System.setProperty("webdriver.chrome.driver", "/Applications/ChromeDriver/chromedriver");
+        WebDriver driver = new ChromeDriver();
+    }
 }
 
 /* Test Template
